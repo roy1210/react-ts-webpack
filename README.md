@@ -15,7 +15,24 @@ $ npm start
 
 ## Usage
 
+1. Create new project  </br>
 To create new project, delete `package-lock.json` then change the `name` in `package.json` and run `$ sudo npm install`
+
+2. Update origin master
+Make new repository in github, change the orgin url as `git remote set-url <name> <newurl>` before `push origin master`
+
+    example:
+    ```
+    ➜  react-ts-todo git:(master) git remote -v
+    origin	https://github.com/roy1210/react-ts-webpack.git (fetch)
+    origin	https://github.com/roy1210/react-ts-webpack.git (push)
+
+    ➜  react-ts-todo git:(master) git remote set-url origin https://github.com/roy1210/react-ts-todo.git
+
+    ➜  react-ts-todo git:(master) git remote -v
+    origin	https://github.com/roy1210/react-ts-todo.git (fetch)
+    origin	https://github.com/roy1210/react-ts-todo.git (push)
+    ```
 
 ## Requirement
 
