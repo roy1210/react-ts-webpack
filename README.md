@@ -1,6 +1,7 @@
 # react-ts-webpack-config
 
 ## Description
+
 Webpack and babel settings for react and typescript without using create-react-app
 
 ## Install
@@ -13,8 +14,15 @@ $ npm start
 ```
 
 ## Usage
+
 To create new project, delete `package-lock.json` then change the `name` in `package.json` and run `$ sudo npm install`
 
 ## Requirement
 
 - npm
+
+## Note: If work with create-react-app
+
+Run following command if react app with typescript created by `$ npm create-react-app AppName`
+
+`$ npm i typescript @types/node @types/react @types/react-dom`
