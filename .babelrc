@@ -1,0 +1,5 @@
+// babel will check "" or '' (JSON)
+// run from ts-> react -> env
+{
+  "presets": ["@babel/env", "@babel/react", "@babel/typescript"]
+}
